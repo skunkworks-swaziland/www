@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://skunkworks-swaziland.github.io/www/sitemap.xml
