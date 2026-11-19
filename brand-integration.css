@@ -33,3 +33,5 @@
 /* Map country-site roles to the reviewed brand tokens. Keep the shared theme layout intact. */
 html { --bg:var(--sk-bg); --fg:var(--sk-text); --muted:var(--sk-muted); --line:var(--sk-border); --soft:var(--sk-surface); --strong:var(--sk-control-border); --radius:var(--sk-radius); --radius-sm:var(--sk-radius); --sw-bg:var(--sk-bg); --sw-fg:var(--sk-text); --sw-muted:var(--sk-muted); --sw-line:var(--sk-border); --sw-soft:var(--sk-surface); --sw-strong:var(--sk-control-border); }
 :focus-visible { outline-color:var(--sk-focus); }
+
+html[data-theme] { --sw-bg:var(--sk-bg); --sw-fg:var(--sk-text); --sw-muted:var(--sk-muted); --sw-line:var(--sk-border); --sw-soft:var(--sk-surface); --sw-strong:var(--sk-control-border); }
